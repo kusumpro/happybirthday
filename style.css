@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-image: url(img.jpg);
+}
+
+.main {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1 {
+    justify-self: center;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(image1.avif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo img {
+    border-radius: 50%;
+   
+}
+
+
+.content h2 {
+    text-align: center;
+    color: white;
+}
+
+.empty{
+    height: 50px;
+}
+
+.empty2{
+    height: 60px;
+}
+.intro{
+    color: white;
+    text-align: center;
+}
+
+.ending{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
